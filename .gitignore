@@ -1,0 +1,31 @@
+# Build outputs
+/build/
+app/build/
+.kotlin/
+
+# Gradle
+.gradle/
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Signing (non committare mai le chiavi)
+*.keystore
+*.jks
+keystore.properties
+
+# Tooling locale
+.tools/
+
+# Logs e temporanei
+*.log
+*.tmp
+*.swp
